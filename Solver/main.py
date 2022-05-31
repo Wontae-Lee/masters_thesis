@@ -136,18 +136,19 @@ def main():
 
     # save arrays
 
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npInputDataset.npy",npInputDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npXTargetDataset.npy", npXTargetDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npYTargetDataset.npy",npYTargetDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npUTargetDataset.npy",npUTargetDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npVTargetDataset.npy", npVTargetDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npAccxTargetDataset.npy",npAccXTargetDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npAccYTargetDataset.npy", npAccYTargetDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npRhoTargetDataset.npy", npRhoTargetDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npPTargetDataset.npy",npPTargetDataset)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npCollidingTotal.npy",npCollidingTotal)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npRotatingVL.npy", rnAngularVelocity1*rollRadius)
-    np.save(f"/Users/maxan/Documents/Master'sThesis/DATA/npRotatingVR.npy", rnAngularVelocity2*rollRadius)
+    np.save(f"./DATA/npInputDataset.npy", npInputDataset)
+    np.save(f"./DATA/npXTargetDataset.npy", npXTargetDataset)
+    np.save(f"./DATA/npYTargetDataset.npy", npYTargetDataset)
+    np.save(f"./DATA/npUTargetDataset.npy", npUTargetDataset)
+    np.save(f"./DATA/npVTargetDataset.npy", npVTargetDataset)
+    np.save(f"./DATA/npAccxTargetDataset.npy", npAccXTargetDataset)
+    np.save(f"./DATA/npAccYTargetDataset.npy", npAccYTargetDataset)
+    np.save(f"./DATA/npRhoTargetDataset.npy", npRhoTargetDataset)
+    np.save(f"./DATA/npPTargetDataset.npy", npPTargetDataset)
+    np.save(f"./DATA/npCollidingTotal.npy", npCollidingTotal)
+    np.save(f"./DATA/npRotatingVL.npy", rnAngularVelocity1*rollRadius)
+    np.save(f"./DATA/npRotatingVR.npy", rnAngularVelocity2*rollRadius)
+
 
     # simulation end
     end = SimulationTime.time()

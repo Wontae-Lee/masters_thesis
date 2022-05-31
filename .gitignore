@@ -1,7 +1,8 @@
-.idea
+*.idea
 
 .ipynb_checkpoints/
 
+.idea/
 *.npy
 
 *.xlsx
