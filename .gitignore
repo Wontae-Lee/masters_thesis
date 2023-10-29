@@ -3,7 +3,3 @@
 .ipynb_checkpoints/
 
 .idea/
-*.npy
-
-*.xlsx
-
